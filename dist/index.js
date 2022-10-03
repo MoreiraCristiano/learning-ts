@@ -1,9 +1,9 @@
 "use strict";
-console.log("TS");
-if (1 > 5) {
-    console.log("Testando debug");
+class Pessoa {
+    constructor(name) {
+        this.name = name;
+    }
 }
-else {
-    console.log("LALALA");
-}
+const p1 = new Pessoa("Cristiano");
+console.log(p1);
 //# sourceMappingURL=index.js.map
