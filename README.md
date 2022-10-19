@@ -29,6 +29,7 @@ node arquivo_transpilado.js
 /*******************************************/
 npm i -D sucrase
 npx sucrase-node src/index.ts     // Transpila e executa
+npx sucrase .\src\ -d .\dist\ --transforms typescript,imports   //Transpila
 /*******************************************/
 npm i -D ts-node-dev            // Mais proximo ao nodemon
 npx ts-node-dev --respawn --transpile-only --ignore-watch node_modules .\src\index.ts
